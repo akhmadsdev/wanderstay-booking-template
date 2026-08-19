@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Explore — Wanderstay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="hero">
+      <img src="https://picsum.photos/seed/travel-hero/720/640" alt="Destination" />
+      <div class="shade"></div>
+      <div class="hero-title display-lg">Find your next stay</div>
+    </div>
+
+    <form class="searchbar" action="listings.html" method="get">
+      <input type="search" name="q" placeholder="Where to?" aria-label="Search stays" />
+      <button class="go" type="submit" aria-label="Search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+    </form>
+
+    <div class="cats" role="tablist">
+      <a class="cat active" href="listings.html"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg></span>Beaches</a>
+      <a class="cat" href="listings.html"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20h16M5 20V8l7-4 7 4v12M9 20v-6h6v6"/></svg></span>Cabins</a>
+      <a class="cat" href="listings.html"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M8 15h8"/></svg></span>Islands</a>
+      <a class="cat" href="listings.html"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg></span>Lakefront</a>
+      <a class="cat" href="listings.html"><span class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>Trending</a>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><span class="heading-md">Popular destinations</span></div>
+    </div>
+    <div class="dest-row">
+      <a class="dest" href="property.html"><img src="https://picsum.photos/seed/d1/128/128" alt="Bali" /><span>Bali</span></a>
+      <a class="dest" href="property.html"><img src="https://picsum.photos/seed/d2/128/128" alt="Kyoto" /><span>Kyoto</span></a>
+      <a class="dest" href="property.html"><img src="https://picsum.photos/seed/d3/128/128" alt="Santorini" /><span>Santorini</span></a>
+      <a class="dest" href="property.html"><img src="https://picsum.photos/seed/d4/128/128" alt="Lake Como" /><span>Lake Como</span></a>
+      <a class="dest" href="property.html"><img src="https://picsum.photos/seed/d5/128/128" alt="Tulum" /><span>Tulum</span></a>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><span class="heading-md">Featured stays</span></div>
+    </div>
+    <a class="feature-card" href="property.html">
+      <div class="media">
+        <img src="https://picsum.photos/seed/stay1/720/450" alt="Featured stay" />
+        <button class="icon-btn fav" aria-label="Save"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></button>
+      </div>
+      <div class="body">
+        <div class="row">
+          <span class="title">Lakeside retreat</span>
+          <span class="rating">★ 4.87</span>
+        </div>
+        <div class="meta">Lake Como, Italy · 6,100 km away</div>
+        <div class="price"><b>$214</b> night</div>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a class="tab active" href="index.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Explore</a>
+      <a class="tab" href="wishlist.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>Wishlist</a>
+      <a class="tab" href="trips.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>Trips</a>
+      <a class="tab" href="profile.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="3.5"/><path d="M4 21c0-4 3.5-6.5 8-6.5s8 2.5 8 6.5"/></svg>Profile</a>
+    </nav>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

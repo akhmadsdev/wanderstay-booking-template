@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Guests — Wanderstay</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="page-header">
+      <a class="icon-btn" href="property.html" aria-label="Back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></a>
+      <span class="title">Guests</span>
+    </div>
+
+    <div class="summary-card">
+      <img src="https://picsum.photos/seed/stay-summary/144/144" alt="Property" />
+      <div>
+        <div class="t">Lakeside retreat</div>
+        <div class="m">Lake Como, Italy</div>
+        <span class="r">★ 4.87</span>
+      </div>
+    </div>
+
+    <div class="stepper">
+      <div class="info">
+        <div class="t">Adults</div>
+        <div class="s">Age 13+</div>
+      </div>
+      <div class="ctrl">
+        <button data-step="-1" aria-label="Decrease adults">−</button>
+        <span class="n">2</span>
+        <button data-step="1" aria-label="Increase adults">+</button>
+      </div>
+    </div>
+
+    <div class="stepper">
+      <div class="info">
+        <div class="t">Children</div>
+        <div class="s">Age 2–12</div>
+      </div>
+      <div class="ctrl">
+        <button data-step="-1" aria-label="Decrease children">−</button>
+        <span class="n">0</span>
+        <button data-step="1" aria-label="Increase children">+</button>
+      </div>
+    </div>
+
+    <div class="stepper">
+      <div class="info">
+        <div class="t">Infants</div>
+        <div class="s">Under 2</div>
+      </div>
+      <div class="ctrl">
+        <button data-step="-1" aria-label="Decrease infants">−</button>
+        <span class="n">0</span>
+        <button data-step="1" aria-label="Increase infants">+</button>
+      </div>
+    </div>
+
+    <div class="stepper">
+      <div class="info">
+        <div class="t">Pets</div>
+        <div class="s">Bringing a service animal?</div>
+      </div>
+      <div class="ctrl">
+        <button data-step="-1" aria-label="Decrease pets">−</button>
+        <span class="n">0</span>
+        <button data-step="1" aria-label="Increase pets">+</button>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="price-details">
+      <div class="line"><span>$214 × 5 nights</span><span>$1,070</span></div>
+      <div class="line"><span>Cleaning fee</span><span>$65</span></div>
+      <div class="line"><span>Service fee</span><span>$120</span></div>
+      <div class="line total"><span>Total</span><span>$1,255</span></div>
+    </div>
+
+    <div class="footer-bar">
+      <button class="btn" id="request-btn">Request to book</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
